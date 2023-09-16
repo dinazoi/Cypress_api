@@ -7,7 +7,9 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
-    "lint": "ng lint --force"
+    "lint": "ng lint --force",
+    "cy:open_dev": "npx cypress open --env username=olehshytikov1991@gmail.com,password=passpro1,apiUrl=https://Indianajons.com",
+    "cy:open_qa": "npx cypress open --env username=olehshytikov1990@gmail.com,password=Passpro1,apiUrl=https://api.realworld.io"
   },
   "engines": {
     "node": "^14.20.0 || ^16.13.0 || ^18.10.0"
@@ -35,6 +37,7 @@
     "@angular/compiler-cli": "15.2.3",
     "@types/jasmine": "~4.3.0",
     "@types/marked": "^4.0.8",
+    "cypress": "^13.1.0",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.1",
     "karma-chrome-launcher": "~3.1.0",
