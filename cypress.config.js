@@ -9,6 +9,10 @@ module.exports = defineConfig({
     password: 'Passpro1',
     apiUrl: 'https://api.realworld.io'
   },
+  retries: {
+    runMode: 2,
+    openMode: 0
+  },
 
   e2e: {
     baseUrl: 'http://localhost:4200',
